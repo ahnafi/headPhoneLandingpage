@@ -50,10 +50,10 @@ const Navbar = () => {
               className="block absolute right-4 lg:hidden"
               onClick={() => hamburger()}
             >
-              <span className="w-[20px] h-[3px] my-1 block bg-slate-200 rounded-full"></span>
-              <span className="w-[30px] h-[3px] my-1 block bg-slate-200 rounded-full"></span>
-              <span className="w-[20px] h-[3px] my-1 block bg-slate-200 rounded-full"></span>
-              <span className="w-[30px] h-[3px]  block my-1 bg-slate-200 rounded-full"></span>
+              <span className="w-[20px] h-[3px] my-1 block bg-slate-400 rounded-full"></span>
+              <span className="w-[30px] h-[3px] my-1 block bg-slate-300 rounded-full"></span>
+              <span className="w-[20px] h-[3px] my-1 block bg-slate-400 rounded-full"></span>
+              <span className="w-[30px] h-[3px]  block my-1 bg-slate-300 rounded-full"></span>
               
             </button>
             <nav id="nav-menu" className="duration-300 ease-in-out hidden absolute bg-blue-500 border-slate-300 border opacity-100 shadow-lg rounded-lg max-w-[250px] w-full right-0 top-full mt-1 transition lg:border-none lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
