@@ -1,6 +1,6 @@
 import prod from "../../assets/img/headphone2.png";
 import TitleSection from "../elements/title/TitleSection";
-import blob from '../../assets/svg/blob.svg'
+import blob from "../../assets/svg/blob.svg";
 const About = () => {
   return (
     <section id="about" className="py-24 relative overflow-hidden">
@@ -36,9 +36,9 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="absolute w-full max-w-md lg:max-w-2xl xl:max-w-3xl -top-24 -right-32 -z-50" >
-            <img src={blob} alt="blob" />
-        </div>
+      <div className="absolute w-full max-w-md lg:max-w-2xl xl:max-w-3xl -top-24 -right-32 -z-50">
+        <img src={blob} alt="blob" />
+      </div>
     </section>
   );
 };

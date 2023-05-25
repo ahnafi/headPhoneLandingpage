@@ -13,6 +13,10 @@ const navigation = [
     to: "#about",
     text: "About",
   },
+  {
+    to: "#faq",
+    text: "Faq",
+  },
 ];
 
 // navbar fixed
