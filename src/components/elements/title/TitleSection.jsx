@@ -1,6 +1,6 @@
 const TitleSection = (props) => {
   return (
-    <div className="w-full text-center">
+    <div className={`w-full ${props.className}`}>
       <h1 className="font-medium text-blue-600 bg-blue-200 px-4 py-1 inline shadow">
         {props.section}
       </h1>

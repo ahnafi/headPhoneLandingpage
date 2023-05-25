@@ -8,3 +8,6 @@ html {
 .navbar-fixed {
   @apply fixed z-[9999] shadow-xl bg-opacity-80 backdrop-blur-sm bg-blue-500;
 }
+.flip {
+  transform: rotateY(180deg);
+}

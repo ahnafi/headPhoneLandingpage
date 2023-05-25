@@ -36,9 +36,10 @@ const Features = () => {
       <div className="container">
         <TitleSection
           section="Features"
+          className="text-center"
           title="Outstanding Features"
         ></TitleSection>
-        <div className="flex flex-wrap justify-center items-center">
+        <div className="flex flex-wrap lg:flex-nowrap justify-center items-center">
           {allFeatures.map((data) => {
             return (
               <div
