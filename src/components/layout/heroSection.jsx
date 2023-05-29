@@ -2,7 +2,7 @@ import hero from "../../assets/img/headphone.png";
 import Button from "../elements/button/Button";
 const HeroSection = () => {
   return (
-    <section id="hero" className="pt-20 bg-slate-100 overflow-hidden">
+    <section id="hero" className="pt-20 bg-slate-100  overflow-hidden">
       <div className="container ">
         <div className="flex justify-between flex-wrap lg:flex-nowrap xl:flex-wrap items-center px-4 md:flex-col-reverse lg:flex-row ">
           <div className="w-full max-w-xl z-10 md:-translate-y-28 ">
