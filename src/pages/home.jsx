@@ -1,3 +1,4 @@
+import Footer from "../components/fragments/footer/Footer";
 import Navbar from "../components/fragments/navbar/navbar";
 import About from "../components/layout/About";
 import Contact from "../components/layout/Contact";
@@ -18,6 +19,7 @@ const HomePage = () => {
       <Faq></Faq>
       <Testimonial></Testimonial>
       <Contact></Contact>
+      <Footer></Footer>
     </>
   );
 };

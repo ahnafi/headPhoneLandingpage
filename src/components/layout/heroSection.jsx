@@ -18,8 +18,8 @@ const HeroSection = () => {
           </div>
           <div className="w-full max-w-xl relative ">
             <span className="bg-blue-500 w-96 h-96 rounded-full -right-24 md:right-0 lg:rounded-none lg:w-[100vw] lg:h-[100vh] block absolute rotate-45 lg:-top-[100%] xl:-top-[90%] lg:-right-1/2 "></span>
-            <div className="z-10 relative flex justify-center">
-              <img src={hero} alt="headphone" className=" w-3/4 xl:w-full" />
+            <div className="z-10 relative flex justify-center ">
+              <img src={hero} alt="headphone" className=" w-3/4 xl:w-full  " />
             </div>
           </div>
         </div>

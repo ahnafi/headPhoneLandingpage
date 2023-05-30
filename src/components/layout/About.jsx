@@ -3,7 +3,7 @@ import TitleSection from "../elements/title/TitleSection";
 import blob from "../../assets/svg/blob.svg";
 const About = () => {
   return (
-    <section id="about" className="py-24 relative overflow-hidden">
+    <section id="about" className="py-24 relative overflow-x-hidden">
       <div className="container px-4">
         <div className="w-full flex flex-wrap-reverse lg:flex-nowrap justify-center lg:justify-evenly items-center">
           <div className="flex justify-center items-center max-w-xl w-full">

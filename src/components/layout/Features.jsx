@@ -31,7 +31,7 @@ const Features = () => {
   return (
     <section id="features" className="py-24 relative overflow-hidden">
         <div className="absolute w-full max-w-md lg:max-w-2xl xl:max-w-3xl -top-24 -left-32 -z-50" >
-            <img src={blob} alt="blob" />
+            <img src={blob} alt="blob" className="" />
         </div>
       <div className="container">
         <TitleSection

@@ -6,11 +6,11 @@ const Product = () => {
         <div className="container ">
           <div className="flex justify-center items-center px-4 py-24 relative">
             <div className="max-w-xl md:max-w-2xl w-full bg-white flex flex-col items-center rounded-3xl">
-              <div className="bg-blue-500 w-12 h-12 mb-2 mt-6 rounded-full flex justify-center items-center  border-4 border-blue-200">
+              <div className="bg-blue-500 w-12 h-12 mb-2 mt-6 rounded-full flex justify-center items-center  border-4 border-blue-200 animate-pulse duration-500 transition-all ease-in-out ">
                 <img
                   src={play}
                   alt="icon"
-                  className="w-6 h-6 translate-x-[2px]"
+                  className="w-6 h-6 translate-x-[2px] "
                 />
               </div>
               <div className="w-full text-center ">
