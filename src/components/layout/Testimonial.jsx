@@ -10,25 +10,25 @@ function Testimonial() {
     {
       name: "joseph Gonzales",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias eius quam sint natus nostrum.",
-      color: "red",
+      color: "bg-red-100",
       img: joseph,
     },
     {
       name: "Houcine Ncib",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias eius quam sint natus nostrum.",
-      color: "yellow",
+      color: "bg-yellow-100",
       img: houcine ,
     },
     {
       name: "Erik Lucatero",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias eius quam sint natus nostrum.",
-      color: "lime",
+      color: "bg-lime-100",
       img: eric ,
     },
     {
       name: "Ospan Ali",
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias eius quam sint natus nostrum.",
-      color: "pink",
+      color: "bg-pink-100",
       img: ospan ,
     },
   ];
@@ -61,7 +61,7 @@ function Testimonial() {
               return (
                 <div
                   key={i.color}
-                  className={` bg-${i.color}-100 relative mt-16 flex justify-center shadow-lg max-w-xl `}
+                  className={` ${i.color} relative mt-16 flex justify-center shadow-lg max-w-xl `}
                 >
                   <img
                     src={i.img}
